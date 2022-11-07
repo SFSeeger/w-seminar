@@ -1,0 +1,197 @@
+@misc{goodfellow_generative_2014,
+	title = {Generative {Adversarial} {Networks}},
+	url = {http://arxiv.org/abs/1406.2661},
+	abstract = {We propose a new framework for estimating generative models via an adversarial process, in which we simultaneously train two models: a generative model G that captures the data distribution, and a discriminative model D that estimates the probability that a sample came from the training data rather than G. The training procedure for G is to maximize the probability of D making a mistake. This framework corresponds to a minimax two-player game. In the space of arbitrary functions G and D, a unique solution exists, with G recovering the training data distribution and D equal to 1/2 everywhere. In the case where G and D are defined by multilayer perceptrons, the entire system can be trained with backpropagation. There is no need for any Markov chains or unrolled approximate inference networks during either training or generation of samples. Experiments demonstrate the potential of the framework through qualitative and quantitative evaluation of the generated samples.},
+	urldate = {2022-10-24},
+	publisher = {arXiv},
+	author = {Goodfellow, Ian J. and Pouget-Abadie, Jean and Mirza, Mehdi and Xu, Bing and Warde-Farley, David and Ozair, Sherjil and Courville, Aaron and Bengio, Yoshua},
+	month = jun,
+	year = {2014},
+	note = {arXiv:1406.2661 [cs, stat]},
+	keywords = {Computer Science - Machine Learning, Statistics - Machine Learning},
+}
+@misc{radford_unsupervised_2016,
+	title = {Unsupervised {Representation} {Learning} with {Deep} {Convolutional} {Generative} {Adversarial} {Networks}},
+	url = {http://arxiv.org/abs/1511.06434},
+	abstract = {In recent years, supervised learning with convolutional networks (CNNs) has seen huge adoption in computer vision applications. Comparatively, unsupervised learning with CNNs has received less attention. In this work we hope to help bridge the gap between the success of CNNs for supervised learning and unsupervised learning. We introduce a class of CNNs called deep convolutional generative adversarial networks (DCGANs), that have certain architectural constraints, and demonstrate that they are a strong candidate for unsupervised learning. Training on various image datasets, we show convincing evidence that our deep convolutional adversarial pair learns a hierarchy of representations from object parts to scenes in both the generator and discriminator. Additionally, we use the learned features for novel tasks - demonstrating their applicability as general image representations.},
+	language = {en},
+	urldate = {2022-11-01},
+	publisher = {arXiv},
+	author = {Radford, Alec and Metz, Luke and Chintala, Soumith},
+	month = jan,
+	year = {2016},
+	note = {arXiv:1511.06434 [cs]},
+	keywords = {Computer Science - Computer Vision and Pattern Recognition, Computer Science - Machine Learning},
+	annote = {Comment: Under review as a conference paper at ICLR 2016},
+	file = {Radford et al. - 2016 - Unsupervised Representation Learning with Deep Con.pdf:C\:\\Users\\Simon Felix Seeger\\Zotero\\storage\\AGKZNZ48\\Radford et al. - 2016 - Unsupervised Representation Learning with Deep Con.pdf:application/pdf},
+}
+
+@misc{mirza_conditional_2014,
+	title = {Conditional Generative Adversarial Nets},
+	url = {http://arxiv.org/abs/1411.1784},
+	abstract = {Generative Adversarial Nets [8] were recently introduced as a novel way to train generative models. In this work we introduce the conditional version of generative adversarial nets, which can be constructed by simply feeding the data, y, we wish to condition on to both the generator and discriminator. We show that this model can generate {MNIST} digits conditioned on class labels. We also illustrate how this model could be used to learn a multi-modal model, and provide preliminary examples of an application to image tagging in which we demonstrate how this approach can generate descriptive tags which are not part of training labels.},
+	publisher = {{arXiv}},
+	author = {Mirza, Mehdi and Osindero, Simon},
+	urldate = {2022-11-04},
+	date = {2014-11-06},
+	eprinttype = {arxiv},
+	eprint = {1411.1784 [cs, stat]},
+	keywords = {Computer Science - Artificial Intelligence, Computer Science - Computer Vision and Pattern Recognition, Computer Science - Machine Learning, Statistics - Machine Learning},
+}
+
+
+@misc{karras_analyzing_2020,
+	title = {Analyzing and Improving the Image Quality of {StyleGAN}},
+	url = {http://arxiv.org/abs/1912.04958},
+	abstract = {The style-based {GAN} architecture ({StyleGAN}) yields state-of-the-art results in data-driven unconditional generative image modeling. We expose and analyze several of its characteristic artifacts, and propose changes in both model architecture and training methods to address them. In particular, we redesign the generator normalization, revisit progressive growing, and regularize the generator to encourage good conditioning in the mapping from latent codes to images. In addition to improving image quality, this path length regularizer yields the additional benefit that the generator becomes significantly easier to invert. This makes it possible to reliably attribute a generated image to a particular network. We furthermore visualize how well the generator utilizes its output resolution, and identify a capacity problem, motivating us to train larger models for additional quality improvements. Overall, our improved model redefines the state of the art in unconditional image modeling, both in terms of existing distribution quality metrics as well as perceived image quality.},
+	publisher = {{arXiv}},
+	author = {Karras, Tero and Laine, Samuli and Aittala, Miika and Hellsten, Janne and Lehtinen, Jaakko and Aila, Timo},
+	urldate = {2022-11-04},
+	date = {2020-03-23},
+	eprinttype = {arxiv},
+	eprint = {1912.04958 [cs, eess, stat]},
+	keywords = {Computer Science - Computer Vision and Pattern Recognition, Computer Science - Machine Learning, Computer Science - Neural and Evolutionary Computing, Electrical Engineering and Systems Science - Image and Video Processing, Statistics - Machine Learning},
+}
+
+@Book{Nielsen:NNDP,
+author = {Michael A. Nielsen},
+title = {Neural Networks and Deep Learning},
+publisher = {Determination Press},
+year = {2015},
+}
+
+
+@inproceedings{liu2015faceattributes,
+  title = {Deep Learning Face Attributes in the Wild},
+  author = {Liu, Ziwei and Luo, Ping and Wang, Xiaogang and Tang, Xiaoou},
+  booktitle = {Proceedings of International Conference on Computer Vision (ICCV)},
+  month = {12},
+  year = {2015} 
+}
+
+@misc{tensorflow2015-whitepaper,
+title={ {TensorFlow}: Large-Scale Machine Learning on Heterogeneous Systems},
+url={https://www.tensorflow.org/},
+note={Software available from tensorflow.org},
+author={
+    Mart\'{i}n~Abadi and
+    Ashish~Agarwal and
+    Paul~Barham and
+    Eugene~Brevdo and
+    Zhifeng~Chen and
+    Craig~Citro and
+    Greg~S.~Corrado and
+    Andy~Davis and
+    Jeffrey~Dean and
+    Matthieu~Devin and
+    Sanjay~Ghemawat and
+    Ian~Goodfellow and
+    Andrew~Harp and
+    Geoffrey~Irving and
+    Michael~Isard and
+    Yangqing Jia and
+    Rafal~Jozefowicz and
+    Lukasz~Kaiser and
+    Manjunath~Kudlur and
+    Josh~Levenberg and
+    Dandelion~Man\'{e} and
+    Rajat~Monga and
+    Sherry~Moore and
+    Derek~Murray and
+    Chris~Olah and
+    Mike~Schuster and
+    Jonathon~Shlens and
+    Benoit~Steiner and
+    Ilya~Sutskever and
+    Kunal~Talwar and
+    Paul~Tucker and
+    Vincent~Vanhoucke and
+    Vijay~Vasudevan and
+    Fernanda~Vi\'{e}gas and
+    Oriol~Vinyals and
+    Pete~Warden and
+    Martin~Wattenberg and
+    Martin~Wicke and
+    Yuan~Yu and
+    Xiaoqiang~Zheng},
+  year={2015},
+}
+
+@article{odena2016deconvolution,
+  author = {Odena, Augustus and Dumoulin, Vincent and Olah, Chris},
+  title = {Deconvolution and Checkerboard Artifacts},
+  journal = {Distill},
+  year = {2016},
+  url = {http://distill.pub/2016/deconv-checkerboard},
+  doi = {10.23915/distill.00003}
+}
+
+@misc{oshea_introduction_2015,
+	title = {An Introduction to Convolutional Neural Networks},
+	url = {http://arxiv.org/abs/1511.08458},
+	abstract = {The field of machine learning has taken a dramatic twist in recent times, with the rise of the Artificial Neural Network ({ANN}). These biologically inspired computational models are able to far exceed the performance of previous forms of artificial intelligence in common machine learning tasks. One of the most impressive forms of {ANN} architecture is that of the Convolutional Neural Network ({CNN}). {CNNs} are primarily used to solve difficult image-driven pattern recognition tasks and with their precise yet simple architecture, offers a simplified method of getting started with {ANNs}. This document provides a brief introduction to {CNNs}, discussing recently published papers and newly formed techniques in developing these brilliantly fantastic image recognition models. This introduction assumes you are familiar with the fundamentals of {ANNs} and machine learning.},
+	publisher = {{arXiv}},
+	author = {O'Shea, Keiron and Nash, Ryan},
+	urldate = {2022-11-07},
+	date = {2015-12-02},
+	eprinttype = {arxiv},
+	eprint = {1511.08458 [cs]},
+	keywords = {Computer Science - Computer Vision and Pattern Recognition, Computer Science - Machine Learning, Computer Science - Neural and Evolutionary Computing},
+}
+
+@misc{gu_recent_2017,
+	title = {Recent Advances in Convolutional Neural Networks},
+	url = {http://arxiv.org/abs/1512.07108},
+	abstract = {In the last few years, deep learning has led to very good performance on a variety of problems, such as visual recognition, speech recognition and natural language processing. Among different types of deep neural networks, convolutional neural networks have been most extensively studied. Leveraging on the rapid growth in the amount of the annotated data and the great improvements in the strengths of graphics processor units, the research on convolutional neural networks has been emerged swiftly and achieved state-of-the-art results on various tasks. In this paper, we provide a broad survey of the recent advances in convolutional neural networks. We detailize the improvements of {CNN} on different aspects, including layer design, activation function, loss function, regularization, optimization and fast computation. Besides, we also introduce various applications of convolutional neural networks in computer vision, speech and natural language processing.},
+	publisher = {{arXiv}},
+	author = {Gu, Jiuxiang and Wang, Zhenhua and Kuen, Jason and Ma, Lianyang and Shahroudy, Amir and Shuai, Bing and Liu, Ting and Wang, Xingxing and Wang, Li and Wang, Gang and Cai, Jianfei and Chen, Tsuhan},
+	urldate = {2022-11-07},
+	date = {2017-10-19},
+	eprinttype = {arxiv},
+	eprint = {1512.07108 [cs]},
+	keywords = {Computer Science - Computer Vision and Pattern Recognition, Computer Science - Machine Learning, Computer Science - Neural and Evolutionary Computing},
+}
+
+@misc{isola_image--image_2018,
+	title = {Image-to-Image Translation with Conditional Adversarial Networks},
+	url = {http://arxiv.org/abs/1611.07004},
+	abstract = {We investigate conditional adversarial networks as a general-purpose solution to image-to-image translation problems. These networks not only learn the mapping from input image to output image, but also learn a loss function to train this mapping. This makes it possible to apply the same generic approach to problems that traditionally would require very different loss formulations. We demonstrate that this approach is effective at synthesizing photos from label maps, reconstructing objects from edge maps, and colorizing images, among other tasks. Indeed, since the release of the pix2pix software associated with this paper, a large number of internet users (many of them artists) have posted their own experiments with our system, further demonstrating its wide applicability and ease of adoption without the need for parameter tweaking. As a community, we no longer hand-engineer our mapping functions, and this work suggests we can achieve reasonable results without hand-engineering our loss functions either.},
+	publisher = {{arXiv}},
+	author = {Isola, Phillip and Zhu, Jun-Yan and Zhou, Tinghui and Efros, Alexei A.},
+	urldate = {2022-11-07},
+	date = {2018-11-26},
+	eprinttype = {arxiv},
+	eprint = {1611.07004 [cs]},
+	keywords = {Computer Science - Computer Vision and Pattern Recognition},
+}
+
+
+@misc{arjovsky_wasserstein_2017,
+	title = {Wasserstein {GAN}},
+	url = {http://arxiv.org/abs/1701.07875},
+	abstract = {We introduce a new algorithm named {WGAN}, an alternative to traditional {GAN} training. In this new model, we show that we can improve the stability of learning, get rid of problems like mode collapse, and provide meaningful learning curves useful for debugging and hyperparameter searches. Furthermore, we show that the corresponding optimization problem is sound, and provide extensive theoretical work highlighting the deep connections to other distances between distributions.},
+	number = {{arXiv}:1701.07875},
+	publisher = {{arXiv}},
+	author = {Arjovsky, Martin and Chintala, Soumith and Bottou, Léon},
+	urldate = {2022-11-07},
+	date = {2017-12-06},
+	langid = {english},
+	eprinttype = {arxiv},
+	eprint = {1701.07875 [cs, stat]},
+	keywords = {Computer Science - Machine Learning, Statistics - Machine Learning},
+	file = {Arjovsky et al. - 2017 - Wasserstein GAN.pdf:/home/simon/Zotero/storage/EPPXWVRP/Arjovsky et al. - 2017 - Wasserstein GAN.pdf:application/pdf},
+}
+
+@misc{ramesh_hierarchical_2022,
+	title = {Hierarchical Text-Conditional Image Generation with {CLIP} Latents},
+	url = {http://arxiv.org/abs/2204.06125},
+	abstract = {Contrastive models like {CLIP} have been shown to learn robust representations of images that capture both semantics and style. To leverage these representations for image generation, we propose a two-stage model: a prior that generates a {CLIP} image embedding given a text caption, and a decoder that generates an image conditioned on the image embedding. We show that explicitly generating image representations improves image diversity with minimal loss in photorealism and caption similarity. Our decoders conditioned on image representations can also produce variations of an image that preserve both its semantics and style, while varying the non-essential details absent from the image representation. Moreover, the joint embedding space of {CLIP} enables language-guided image manipulations in a zero-shot fashion. We use diffusion models for the decoder and experiment with both autoregressive and diffusion models for the prior, finding that the latter are computationally more efficient and produce higher-quality samples.},
+	number = {{arXiv}:2204.06125},
+	publisher = {{arXiv}},
+	author = {Ramesh, Aditya and Dhariwal, Prafulla and Nichol, Alex and Chu, Casey and Chen, Mark},
+	urldate = {2022-11-07},
+	date = {2022-04-12},
+	eprinttype = {arxiv},
+	eprint = {2204.06125 [cs]},
+	keywords = {Computer Science - Computer Vision and Pattern Recognition},
+}
