@@ -274,3 +274,8 @@ TSWLatexianTemp*
 
 # Makeindex log files
 *.lpz
+
+nonosquare/
+dataset/
+.ipynb_checkpoints
+

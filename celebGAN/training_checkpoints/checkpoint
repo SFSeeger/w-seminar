@@ -1,0 +1,12 @@
+model_checkpoint_path: "ckpt-229"
+all_model_checkpoint_paths: "ckpt-225"
+all_model_checkpoint_paths: "ckpt-226"
+all_model_checkpoint_paths: "ckpt-227"
+all_model_checkpoint_paths: "ckpt-228"
+all_model_checkpoint_paths: "ckpt-229"
+all_model_checkpoint_timestamps: 1667735654.972378
+all_model_checkpoint_timestamps: 1667735761.2581973
+all_model_checkpoint_timestamps: 1667735869.451257
+all_model_checkpoint_timestamps: 1667735974.224554
+all_model_checkpoint_timestamps: 1667736827.3170588
+last_preserved_timestamp: 1667525035.2945006
